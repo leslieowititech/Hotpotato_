@@ -1,0 +1,121 @@
+.recipe-card-wrapper{
+  display: flex;
+  /* flex: 20%; */
+  /* align-content: flex-start; */
+  padding-left: 20px;
+
+}
+
+.recipe-elements-container{
+  /* width: 100%; */
+  /* margin: auto; */
+  flex: 1 0 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left:15px;
+  padding-right: 15px;
+
+  max-width: 280px;
+  min-width: 280px;
+}
+
+/* recipe image  */
+.recipe-card{
+  margin: auto;
+  position: relative;
+  min-height: 220px;
+  max-height: 220px;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  border-right: 1px solid rgb(201, 201, 201);
+  width: 100%;
+  border-radius: 4px;
+}
+
+.rc-ic__title{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1rem;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 8px;
+}
+
+.recipe-card__image-container{
+  height: 100%;
+}
+
+
+
+/* profile metadata container */
+.recipe-card__metadata-container{
+  margin: auto;
+  /* min-width: 300px; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-container{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.pc__image-container{
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+}
+.pc-ic__image{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+background-color: rgb(216, 233, 248);
+}
+
+.pc__username{
+  padding: 5px;
+  font-weight:normal;
+}
+
+.pc__username:hover{
+  text-decoration: underline;
+
+}
+
+.rc-mc-likes-container{
+  display: flex;
+}
+
+.rc-mc__likes{
+  /* margin-right: 5px; */
+  font-size: 0.9rem;
+  color: rgb(136, 136, 136);
+  padding: 2px;
+}
+
+
+/* wrapper for hover effect*/
+.rc-ic--appear-on-hover{
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+  min-height: 220px;
+  cursor: pointer;
+}
+.rc-ic--appear-on-hover:hover{
+  opacity: 1;
+}
+
+/* like button */
+.rc-mc__likes-icon{
+  padding-left: 3px;
+  padding-top: 3px;
+}
+/* .like-hover{
+  visibility:hidden;
+} */
+/* .like-hover:hover{
+ visibility:visible;
+} */

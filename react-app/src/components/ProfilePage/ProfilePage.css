@@ -1,0 +1,48 @@
+.page-cover-container{
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.sidebar-and-recipes-container{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: flex-start;
+}
+
+.user-side-bar-wrapper{
+  /* flex:120%; */
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 100vh;
+}
+
+.user-side-bar-container{
+  min-height: 800px;
+  width: 80%;
+  margin:auto;
+  background-color: white;
+  margin-top: 40px;
+  border-bottom: 0.5px solid rgb(226, 226, 226);
+  border-right: 0.5px solid rgb(226, 226, 226);
+  box-shadow: 0 1px 3px rgb(25 25 25 / 10%);
+  border-radius: 4px;
+}
+
+
+.users-recipes-cards{
+  /* flex: 50%; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-left: 20px;
+  justify-content: center;
+  /* min-width: 100%; */
+
+}
+
+.user-side-bar-container{
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+}

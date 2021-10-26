@@ -1,0 +1,138 @@
+.comment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+
+}
+
+.new-comment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.new-comment-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.new-comment-form-container {
+    width: 60%;
+    padding: 20px;
+}
+
+.new-comment-form {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    text-align: start;
+}
+
+#comment-submit-btn {
+    float: right;
+    border-style: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    min-width: 75px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.single-comment-container {
+    padding: 20px;
+    width: 60%;
+}
+
+.single-comment {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-comment:hover {
+    background-color: #f5f5f5;
+}
+
+.comment-user {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.comment-utilities {
+    position: block;
+    float: right;
+    top: 0;
+}
+
+.current-user-username {
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+
+.join-the-conversation {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.join-the-conversation-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.join-the-conversation-container {
+    padding: 20px;
+}
+
+#join-the-conversation-login {
+    padding: 10px;
+    font-weight: 700;
+    color: black;
+}
+
+#join-the-conversation-login:hover {
+    border-bottom: 1px solid black;
+}
+
+#join-the-conversation-signup {
+    padding: 10px;
+    font-weight: 700;
+    color: black;
+}
+
+#join-the-conversation-signup:hover {
+    border-bottom: 1px solid black;
+}
+
+#edit-comment-btn {
+    cursor: pointer;
+    color: rgb(121, 121, 121);
+}
+
+#edit-comment-btn:hover {
+        color: rgb(0, 0, 0);
+}
+
+#delete-comment-btn {
+    cursor: pointer;
+    color: rgb(255, 0, 0, 0.6);
+}
+
+#delete-comment-btn:hover {
+    color: rgb(255, 0, 0);
+
+}

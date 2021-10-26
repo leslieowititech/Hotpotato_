@@ -1,0 +1,27 @@
+.measurements_container
+{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    padding: 0 10px 0 20px;
+}
+
+.ingredients_container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 0px 0 10px;
+}
+
+.ingredients_item, .measurements_item
+{
+    margin-bottom: 5px;
+}
+
+.add_container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
